@@ -1,73 +1,39 @@
-# Welcome to your Lovable project
+# Seruwe Kenneth Mofokeng - Portfolio
 
-## Project info
+Personal portfolio website showcasing my skills, projects, and experience as an IT Graduate seeking internship opportunities in South Africa.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🌐 Live Demo
 
-## How can I edit this code?
+[View Portfolio](https://seruwemofokeng.lovable.app)
 
-There are several ways of editing your application.
+## 👨‍💻 About
 
-**Use Lovable**
+I'm an IT Graduate from Central University of Technology with hands-on experience in software and mobile app development. This portfolio highlights my technical skills, academic background, and professional experience.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🛠️ Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
+- React + TypeScript
 - Tailwind CSS
+- Vite
+- shadcn/ui
 
-## How can I deploy this project?
+## 📂 Sections
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+- **Hero** - Introduction and call-to-action
+- **About** - Professional summary
+- **Skills** - Technical and soft skills
+- **Projects** - Featured work
+- **Experience** - Work history
+- **Education** - Academic background & certifications
+- **Contact** - Get in touch
 
-## Can I connect a custom domain to my Lovable project?
+## 📬 Contact
 
-Yes, you can!
+- 📧 mofokengseruwe799@gmail.com
+- 💼 [LinkedIn](https://linkedin.com/in/seruwe-mofokeng-a576242b5)
+- 🐙 [GitHub](https://github.com/seruwemofokeng)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📄 License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+© 2025 Seruwe Kenneth Mofokeng. All rights reserved.
+
