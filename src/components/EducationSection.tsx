@@ -1,12 +1,27 @@
 import { GraduationCap, Award, Calendar, ExternalLink } from "lucide-react";
 
-const education = {
-  degree: "Diploma in Information Technology",
-  institution: "Central University of Technology",
-  period: "2022 – 2025",
-  description:
-    "Comprehensive program covering software development, database management, networking, and IT fundamentals with practical Work-Integrated Learning experience.",
-};
+const education = [
+  {
+    degree: "Advanced Diploma in Information Technology",
+    institution: "Central University of Technology",
+    period: "In progress",
+    description:
+      "Currently studying towards the Advanced Diploma in Information Technology, building further specialisation on top of the National Diploma.",
+  },
+  {
+    degree: "Diploma in Information Technology",
+    institution: "Central University of Technology",
+    period: "2022 – 2025",
+    description:
+      "Comprehensive program covering software development, database management, networking, and IT fundamentals with practical Work-Integrated Learning experience.",
+  },
+  {
+    degree: "Grade 12 (National Senior Certificate)",
+    institution: "Sekgotlong High School",
+    period: "2021",
+    description: "Completed Grade 12 (Matric).",
+  },
+];
 
 const certifications = [
   {
@@ -37,8 +52,11 @@ const certifications = [
 ];
 
 const languages = [
-  { name: "English", level: "Fluent", flag: "🇬🇧" },
-  { name: "Sesotho", level: "Native", flag: "🇿🇦" },
+  { name: "English", level: "Good", code: "EN" },
+  { name: "Sesotho", level: "Good", code: "ST" },
+  { name: "Setswana", level: "Good", code: "TN" },
+  { name: "isiZulu", level: "Fair", code: "ZU" },
+  { name: "Afrikaans", level: "Fair", code: "AF" },
 ];
 
 const EducationSection = () => {
@@ -65,32 +83,41 @@ const EducationSection = () => {
               <h4 className="text-xl font-bold">Education</h4>
             </div>
 
-            <div className="glass-card rounded-2xl p-6 hover:border-primary/30 transition-all">
-              <div className="flex items-start justify-between gap-4 mb-4">
-                <div>
-                  <h5 className="text-lg font-semibold">{education.degree}</h5>
-                  <p className="text-primary">{education.institution}</p>
+            <div className="space-y-4">
+              {education.map((edu) => (
+                <div
+                  key={edu.degree}
+                  className="glass-card rounded-2xl p-6 hover:border-primary/30 transition-all"
+                >
+                  <div className="flex items-start justify-between gap-4 mb-4">
+                    <div>
+                      <h5 className="text-lg font-semibold">{edu.degree}</h5>
+                      <p className="text-primary">{edu.institution}</p>
+                    </div>
+                    <span className="flex items-center gap-1 text-sm text-muted-foreground whitespace-nowrap">
+                      <Calendar className="h-4 w-4" />
+                      {edu.period}
+                    </span>
+                  </div>
+                  <p className="text-muted-foreground text-sm">{edu.description}</p>
                 </div>
-                <span className="flex items-center gap-1 text-sm text-muted-foreground whitespace-nowrap">
-                  <Calendar className="h-4 w-4" />
-                  {education.period}
-                </span>
-              </div>
-              <p className="text-muted-foreground text-sm">{education.description}</p>
+              ))}
             </div>
 
             {/* Languages */}
             <div className="mt-8">
               <h4 className="text-lg font-semibold mb-4">Languages</h4>
-              <div className="flex gap-4">
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
                 {languages.map((lang) => (
                   <div
                     key={lang.name}
-                    className="glass-card rounded-xl px-6 py-4 flex items-center gap-3 hover:border-primary/30 transition-all"
+                    className="glass-card rounded-xl px-4 py-3 flex items-center gap-3 hover:border-primary/30 transition-all"
                   >
-                    <span className="text-2xl">{lang.flag}</span>
-                    <div>
-                      <p className="font-medium">{lang.name}</p>
+                    <span className="w-9 h-9 rounded-lg bg-primary/10 text-primary text-xs font-mono font-bold flex items-center justify-center flex-shrink-0">
+                      {lang.code}
+                    </span>
+                    <div className="min-w-0">
+                      <p className="font-medium truncate">{lang.name}</p>
                       <p className="text-xs text-muted-foreground">{lang.level}</p>
                     </div>
                   </div>
