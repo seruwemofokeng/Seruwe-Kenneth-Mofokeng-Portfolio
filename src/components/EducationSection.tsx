@@ -52,11 +52,11 @@ const certifications = [
 ];
 
 const languages = [
-  { name: "English", level: "Good", flag: "🇬🇧" },
-  { name: "Sesotho", level: "Good", flag: "🇱🇸" },
-  { name: "Setswana", level: "Good", flag: "🇧🇼" },
-  { name: "isiZulu", level: "Fair", flag: "🇿🇦" },
-  { name: "Afrikaans", level: "Fair", flag: "🇳🇱" },
+  { name: "English", level: "Good", code: "EN" },
+  { name: "Sesotho", level: "Good", code: "ST" },
+  { name: "Setswana", level: "Good", code: "TN" },
+  { name: "isiZulu", level: "Fair", code: "ZU" },
+  { name: "Afrikaans", level: "Fair", code: "AF" },
 ];
 
 const EducationSection = () => {
@@ -113,7 +113,9 @@ const EducationSection = () => {
                     key={lang.name}
                     className="glass-card rounded-xl px-4 py-3 flex items-center gap-3 hover:border-primary/30 transition-all"
                   >
-                    <span className="text-2xl">{lang.flag}</span>
+                    <span className="w-9 h-9 rounded-lg bg-primary/10 text-primary text-xs font-mono font-bold flex items-center justify-center flex-shrink-0">
+                      {lang.code}
+                    </span>
                     <div className="min-w-0">
                       <p className="font-medium truncate">{lang.name}</p>
                       <p className="text-xs text-muted-foreground">{lang.level}</p>
