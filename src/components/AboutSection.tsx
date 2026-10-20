@@ -22,7 +22,7 @@ const AboutSection = () => {
                 genuine desire to solve real-world problems through innovative software solutions.
               </p>
               <p>
-                As an IT Intern at Motheo TVET College (DHET), and after a year as a Student
+                As an ICT Technician Intern at Motheo TVET College, and after a year as an IT Lab
                 Assistant at the Central University of Technology, I have gained hands-on exposure
                 to the software development lifecycle, collaborative agile environments, and the
                 importance of user-centered design. I thrive in team settings and value clear
