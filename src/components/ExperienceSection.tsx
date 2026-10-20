@@ -1,13 +1,27 @@
-import { Briefcase, Calendar, MapPin } from "lucide-react";
+import { Calendar, MapPin } from "lucide-react";
 
 const experiences = [
   {
-    title: "IT Lab Assistant / Teacher's Assistant",
-    company: "Educational Institution",
-    location: "Bloemfontein, South Africa",
-    period: "2025 – Present",
+    title: "IT Intern",
+    company: "Motheo TVET College (DHET)",
+    location: "Free State, South Africa",
+    period: "Feb 2026 – Present",
     description:
-      "Supporting students and educators in IT laboratory environments, providing technical assistance and fostering inclusive learning experiences.",
+      "Serving as an IT Intern in a public-sector college environment, supporting day-to-day IT operations for staff and students.",
+    responsibilities: [
+      "Provide technical support to staff and students",
+      "Assist with maintaining computer labs and office equipment",
+      "Support software, system and network setup tasks",
+      "Troubleshoot hardware, software and connectivity issues",
+    ],
+  },
+  {
+    title: "Student Assistant",
+    company: "Central University of Technology",
+    location: "Bloemfontein, South Africa",
+    period: "Mar 2025 – Nov 2025",
+    description:
+      "Worked in the IT laboratory supporting students and staff, with a focus on inclusive access to IT resources (contract ended).",
     responsibilities: [
       "Assisted students with special needs in accessing and using IT resources",
       "Supported classroom activities and ensured lab safety protocols",

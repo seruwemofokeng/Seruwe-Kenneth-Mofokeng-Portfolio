@@ -16,14 +16,16 @@ const AboutSection = () => {
             </h3>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                I am a dedicated IT graduate from the Central University of Technology with a 
-                Diploma in Information Technology. My journey in tech has been driven by curiosity 
-                and a genuine desire to solve real-world problems through innovative software solutions.
+                I am an IT graduate from the Central University of Technology with a Diploma in
+                Information Technology, currently studying towards an Advanced Diploma in
+                Information Technology. My journey in tech has been driven by curiosity and a
+                genuine desire to solve real-world problems through innovative software solutions.
               </p>
               <p>
-                Through my Work-Integrated Learning experience, I've gained hands-on exposure to 
-                the software development lifecycle, collaborative agile environments, and the 
-                importance of user-centered design. I thrive in team settings and value clear 
+                As an IT Intern at Motheo TVET College (DHET), and after a year as a Student
+                Assistant at the Central University of Technology, I have gained hands-on exposure
+                to the software development lifecycle, collaborative agile environments, and the
+                importance of user-centered design. I thrive in team settings and value clear
                 communication as the foundation of successful projects.
               </p>
               <p>
@@ -90,11 +92,11 @@ const AboutSection = () => {
                 <div className="text-xs text-muted-foreground mt-1">Certifications</div>
               </div>
               <div className="glass-card rounded-xl p-4 text-center">
-                <div className="text-2xl font-bold gradient-text">3</div>
+                <div className="text-2xl font-bold gradient-text">4</div>
                 <div className="text-xs text-muted-foreground mt-1">Years Study</div>
               </div>
               <div className="glass-card rounded-xl p-4 text-center">
-                <div className="text-2xl font-bold gradient-text">2</div>
+                <div className="text-2xl font-bold gradient-text">5</div>
                 <div className="text-xs text-muted-foreground mt-1">Languages</div>
               </div>
             </div>
