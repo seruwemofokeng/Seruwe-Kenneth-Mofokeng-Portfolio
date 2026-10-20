@@ -29,10 +29,12 @@ const AboutSection = () => {
                 communication as the foundation of successful projects.
               </p>
               <p>
-                I'm actively seeking internship opportunities where I can contribute my skills 
-                in C# ASP.NET, Flutter, and web development while continuing to grow as a 
-                professional developer. I'm excited about the opportunity to work on meaningful 
-                projects and learn from experienced mentors.
+                I am actively seeking an internship opportunity where I can apply my knowledge
+                and skills in Information Technology, IT support, and software development while
+                gaining valuable practical experience in a professional environment. I am eager
+                to contribute to meaningful projects, solve technical challenges, and learn from
+                experienced professionals. I am motivated to grow my technical and professional
+                capabilities while building a successful career in the IT industry.
               </p>
             </div>
           </div>

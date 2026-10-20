@@ -25,14 +25,19 @@ const HeroSection = () => {
 
           {/* Title */}
           <p className="text-xl md:text-2xl text-primary font-medium mb-6 animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            IT Graduate | Aspiring Software & Mobile App Developer
+            IT Graduate | IT Support | Software Developer
           </p>
 
           {/* Introduction */}
           <p className="text-lg text-muted-foreground max-w-2xl mb-10 leading-relaxed animate-fade-up" style={{ animationDelay: "0.3s" }}>
-            A motivated and eager IT graduate passionate about creating innovative solutions. 
-            With hands-on experience in software development and a strong foundation in modern technologies, 
-            I'm ready to contribute to impactful projects and grow alongside talented teams.
+            Motivated and results-oriented graduate seeking an internship opportunity within a
+            South African organization to gain practical workplace experience and further develop
+            professional skills. Possesses strong communication, interpersonal, and teamwork
+            abilities, with hands-on exposure gained through Work-Integrated Learning (WIL).
+            Demonstrates problem-solving skills, adaptability, and a willingness to learn in
+            fast-paced environments. Committed to delivering quality support, meeting
+            organizational objectives, and contributing positively to team and stakeholder success
+            with professionalism and enthusiasm.
           </p>
 
           {/* CTA Buttons */}
