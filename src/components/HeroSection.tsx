@@ -25,7 +25,7 @@ const HeroSection = () => {
 
           {/* Title */}
           <p className="text-xl md:text-2xl text-primary font-medium mb-6 animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            IT Graduate | Aspiring Software & Mobile App Developer
+            IT Graduate | IT Support | Software Developer
           </p>
 
           {/* Introduction */}
